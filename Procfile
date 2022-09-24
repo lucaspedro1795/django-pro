@@ -1,1 +1,1 @@
-web: gunicorn.wsgi
+web: gunicorn base_paraiso.wsgi
