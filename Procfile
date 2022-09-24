@@ -1,1 +1,1 @@
-web: gunicorn.wsgi
+web: gunicorn base_conhecimento.wsgi --log-file -
