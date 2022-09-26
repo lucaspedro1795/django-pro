@@ -116,11 +116,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-<<<<<<< HEAD
-STATIC_URL = 'artigos/static'
-=======
+
 STATIC_URL = 'django-pro/artigos/static'
->>>>>>> 9fb73a83fb9d3e0fd1ea8421de3f606ac656715f
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
