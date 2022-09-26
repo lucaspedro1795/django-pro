@@ -1,4 +1,4 @@
-{% load static %}
+{% load artigos/static %}
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -10,13 +10,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% artigos/static 'css/style.css' %}">
 </head>
 
 <body>
     <nav class="d-flex align-items-center justify-content-between navbar navbar-expand-lg bg-light">
         <div>
-            <a class="navbar-brand" href="/artigos"><img src={% static 'images/logo.PNG' %} alt="logo" class="logo ms-5"></a>
+            <a class="navbar-brand" href="/artigos"><img src={% artigos/static 'images/logo.PNG' %} alt="logo" class="logo ms-5"></a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
