@@ -19,22 +19,25 @@
             <a class="navbar-brand" href="/artigos"><img src={% static 'images/logo.PNG' %} alt="logo" class="logo ms-5"></a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Áreas
                   </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Sistemas</a></li>
-                    <li><a class="dropdown-item" href="#">Equipamentos</a></li>
-                    <li><a class="dropdown-item" href="#">Redes</a></li>
-                  </ul>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Sistemas</a></li>
+                        <li><a class="dropdown-item" href="#">Equipamentos</a></li>
+                        <li><a class="dropdown-item" href="#">Redes</a></li>
+                    </ul>
                 </li>
-              </ul>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Mais Pesquisados</a>
+                </li>
+            </ul>
         </div>
         <form method="GET">
             <div class="input-group me-5">
                 <input type="search" class="form-control" id="search" name="search" placeholder="Pesquisar..">
                 <button class="btn btn-outline-secondary me-5" type="submit" id=""><i class="bi bi-search"></i></button>
-              </div>
+            </div>
         </form>
     </nav>
     <div class="d-flex align-items-center justify-content-around">
