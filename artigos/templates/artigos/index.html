@@ -41,9 +41,9 @@
         </form>
     </nav>
     <div class="d-flex align-items-center justify-content-around">
-        <ul class="artigos">
+        <ul class="list-group">
             {% for artigo in artigos %}
-            <li>
+            <li class="list-group-item">
                 <a href="/artigos/{{ artigo.id }}/">
                     <h3>{{ artigo.Titulo }}</h3>
                 </a>
