@@ -117,7 +117,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 
-STATIC_URL = 'django-pro/artigos/static'
+STATIC_URL = '/static/'
 
 
 # Default primary key field type
